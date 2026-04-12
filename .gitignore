@@ -1,0 +1,21 @@
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Data & Heavy Files (Найважливіше!)
+data/
+checkpoints/
+outputs/
+*.pth
+*.onnx
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# User-specific config
+.env

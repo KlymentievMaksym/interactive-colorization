@@ -1,0 +1,12 @@
+[submodule "colorization-engine"]
+	path = colorization-engine
+	url = https://github.com/KlymentievMaksym/interactive-colorization-engine.git
+[submodule "colorization-app"]
+	path = colorization-app
+	url = https://github.com/KlymentievMaksym/interactive-colorization-app.git
+[submodule "colorization-kpi-thesis"]
+	path = colorization-kpi-thesis
+	url = https://github.com/KlymentievMaksym/interactive-colorization-kpi-thesis.git
+[submodule "colorization-paper"]
+	path = colorization-paper
+	url = https://github.com/KlymentievMaksym/interactive-colorization-paper.git
