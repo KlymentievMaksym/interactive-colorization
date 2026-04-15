@@ -27,8 +27,7 @@ install: $(ACTIVATE)
 	$(PIP_LOCAL) install -r ./colorization-app/requirements.txt
 
 update:
-	git submodule update --init --recursive
-	git submodule foreach "git checkout main && git pull origin main && git fetch --tags"
+	git submodule update --init --recursive --remote --merge
 
 clean:
 	$(RM) $(VENV)
