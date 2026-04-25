@@ -4,10 +4,10 @@ venv/
 env/
 __pycache__/
 
-# Data & Heavy Files (Найважливіше!)
-data/**
+# Data & Heavy Files
+data/
 checkpoints/
-results/
+result*
 outputs/
 *.pth
 *.onnx
