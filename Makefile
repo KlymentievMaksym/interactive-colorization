@@ -24,7 +24,7 @@ $(ACTIVATE):
 
 install: $(ACTIVATE)
 	$(PIP_LOCAL) install -e ./colorization-engine
-	$(PIP_LOCAL) install -r ./colorization-app/requirements.txt
+	$(PIP_LOCAL) install -e ./colorization-app
 	$(PIP_LOCAL) install -r ./data/requirements.txt
 
 update:
