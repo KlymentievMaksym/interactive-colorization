@@ -5,6 +5,7 @@ env/
 __pycache__/
 
 # Data & Heavy Files
+models/
 data/
 checkpoints/
 result*
