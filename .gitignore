@@ -10,6 +10,7 @@ data/
 checkpoints/
 result*
 outputs/
+lightning*
 *.pth
 *.onnx
 
