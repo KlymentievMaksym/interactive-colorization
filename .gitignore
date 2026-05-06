@@ -1,7 +1,5 @@
 # Python environment
 .venv/
-venv/
-env/
 __pycache__/
 
 # Data & Heavy Files
@@ -10,14 +8,10 @@ data/
 checkpoints/
 result*
 outputs/
+*cache*
 *logs*
 *.pth
-*.onnx
+.coverage
 
 # IDEs
 .vscode/
-.idea/
-.DS_Store
-
-# User-specific config
-.env

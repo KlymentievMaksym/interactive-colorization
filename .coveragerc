@@ -1,0 +1,4 @@
+[run]
+omit =
+    colorization-engine/src/colorization_engine/models/util_models/*
+    colorization-engine/src/colorization_engine/scripts/*
