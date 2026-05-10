@@ -127,6 +127,10 @@ if __name__ == "__main__":
     coco_val_zip = manager.download_file(coco_val_url, "val2017.zip")
     manager.unpack(coco_val_zip, "coco_val_2017")
 
+    coco_test_url = "http://images.cocodataset.org/zips/test2017.zip"
+    coco_zip_test = manager.download_file(coco_test_url, "test2017.zip")
+    manager.unpack(coco_zip_test, "coco_test_2017")
+
     flowers_url = "https://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz"
     flowers_tgz = manager.download_file(flowers_url, "flowers.tgz")
     manager.unpack(flowers_tgz, "flowers")
