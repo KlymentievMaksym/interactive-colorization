@@ -5,7 +5,8 @@ __pycache__/
 # Data & Heavy Files
 models/
 data/
-checkpoints/
+checkpoints/*
+!checkpoints/check_checkpoints.py
 result*
 outputs/
 *cache*
